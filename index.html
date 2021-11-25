@@ -6,17 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon | Harry Potter Illuminating Wand</title>
     <!-- links -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./dist/css/main.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <div class="menu-bar"></div>
-    <div class="banner"></div>
+    <header class="header">
+      <div class="nav1 flex-nav">
+        <div class="nav1-left flex-nav">
+          <div class="nav1-left-logo-sprite"></div>
+          <div class="nav1-left-location flex-nav">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="nav1-left-location-deliver">Deliver to</span>
+              <span>Israel</span>
+            </div>
+          </div>
+        </div>
+        <div class="nav1-search">
+              <form role="search" method="get" class="search-form form" action="">
+                <!-- <input type="dropdown" class="search-submit button" value="&#xf002" /> -->
+                  <span class="input-group-addon">
+                  <select>
+                    <option>all</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+                </span>
+                <label>
+                    <input type="search" class="nav1-search-field nav1-search-style-btn nav1-search-right-side" />
+                </label>
+                <input type="submit" class="search-submit button" value="&#xf002" />
+            </form>
+          </div>
+        <div class="nav1-right"></div>
+      </div>
+    </header>
     <div class="product-page-data"></div>
     <div class="left-col"></div>
     <div class="center-col"></div>
     <div class="right-col"></div>
     <div class="frequently-bought"></div>
     <div class="carousel related-item"></div>
+
+    <script src="dist/js/main.js" defer></script>
   </body>
 </html>
