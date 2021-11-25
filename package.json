@@ -1,0 +1,22 @@
+{
+  "name": "amazonproductpage",
+  "version": "1.0.0",
+  "description": "amazon product page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yardentamir/AmazonProductPage.git"
+  },
+  "author": "Yarden Tamir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yardentamir/AmazonProductPage/issues"
+  },
+  "homepage": "https://github.com/yardentamir/AmazonProductPage#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
