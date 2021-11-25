@@ -8,3 +8,65 @@ body {
   font-family: "AmazonFont", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+
+.p-s-5 {
+  padding: 0 5px;
+}
+
+.p-s-15 {
+  padding: 8px 8px;
+  white-space: nowrap;
+}
+
+.p-s-08 {
+  padding: 0 8px;
+  white-space: nowrap;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-end2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.big-white-txt-nav {
+  font-weight: bold;
+}
+
+.small-white-txt-nav {
+  font-size: 12px;
+}
+.nav2-white-txt {
+  font-size: 14px;
+}
+
+a,
+select {
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.nav-link:hover {
+  border: 1px solid white;
+}

@@ -1,3 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "AmazonFont", Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+
+.p-s-5 {
+  padding: 0 5px; }
+
+.p-s-15 {
+  padding: 8px 8px;
+  white-space: nowrap; }
+
+.p-s-08 {
+  padding: 0 8px;
+  white-space: nowrap; }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  align-content: center; }
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; }
+
+.flex-end2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between; }
+
+.big-white-txt-nav {
+  font-weight: bold; }
+
+.small-white-txt-nav {
+  font-size: 12px; }
+
+.nav2-white-txt {
+  font-size: 14px; }
+
+a,
+select {
+  cursor: pointer; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.nav-link {
+  border: 1px solid transparent;
+  border-radius: 3px; }
+
+.nav-link:hover {
+  border: 1px solid white; }
+
 @font-face {
   font-family: "AmazonFont";
   src: url("/dist/fonts/AmazonEmber.woff"); }
@@ -13,92 +72,102 @@
     background: url(/dist/img/sprites/logoAndMenu.png) -2px -39px;
     background-repeat: no-repeat; }
   .nav1-left-location {
-    width: 113px;
-    height: 60px;
-    padding: 10px; }
+    width: 88px;
+    height: 100%;
+    padding: 8px 5px; }
     .nav1-left-location div {
       padding: 0 5px; }
     .nav1-left-location i {
-      bottom: 0;
-      padding-top: 10px; }
+      padding-bottom: 5px; }
     .nav1-left-location-deliver {
       font-size: 12px;
       line-height: 14px;
       color: #cccccc; }
-  .nav1-search-field {
-    background-clip: padding-box;
-    background-color: white;
-    vertical-align: middle;
-    border-radius: 0.25rem;
-    border: 1px solid #e0e0e5;
-    font-size: 1rem;
-    width: 100%;
-    line-height: 2;
-    padding: 0.375rem 1.25rem;
-    transition: border-color 0.2s; }
-  .nav1-search-right-side {
-    height: 51px;
-    border-radius: 0; }
-  .nav1-search-field:focus {
-    outline: none; }
-
-.flex-nav {
-  display: flex;
-  align-items: center; }
-
-.scrollable-dropdown {
-  height: auto;
-  max-height: 320px;
-  /* Increase / Decrease value as per your need */
-  overflow-x: hidden; }
+  .nav1-search {
+    width: 1290px;
+    height: 40px; }
+    .nav1-search-form {
+      height: 100%;
+      margin: 0 15px; }
+    .nav1-search-field {
+      background-color: white;
+      vertical-align: middle;
+      border-radius: 0.25rem;
+      border: 1px solid #e0e0e5;
+      font-size: 1rem;
+      width: 100%;
+      line-height: 2;
+      padding: 0.375rem 0.75rem;
+      transition: border-color 0.2s; }
+    .nav1-search-right-side {
+      height: 100%;
+      border-radius: 0; }
+    .nav1-search-field:focus {
+      outline: none; }
+    .nav1-search-submit {
+      margin: 0;
+      padding: 0 0.8rem;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+      font-family: "Font Awesome 5 Free";
+      display: inline-block;
+      font-weight: 600;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      background: #febd69;
+      color: #292826;
+      border: 1px solid transparent;
+      vertical-align: middle;
+      text-shadow: none;
+      transition: all 0.2s; }
+    .nav1-search-submit:hover {
+      cursor: pointer;
+      background: #f3a847;
+      color: #292826;
+      outline: 0; }
+    .nav1-search select {
+      height: 100%;
+      padding: 0 10px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 1px solid #cccccc;
+      color: #555;
+      background-color: #fafafa;
+      position: relative; }
+    .nav1-search label {
+      width: 100%; }
+  .nav1-right {
+    width: 400px;
+    height: 100%; }
+    .nav1-right-flag {
+      padding-top: 20px; }
+    .nav1-right-flag-img {
+      background: url(/dist/img/sprites/rzrQQdi0aRm6Dap.png) no-repeat 0 -130px;
+      width: 25px;
+      height: 18px; }
+    .nav1-right-cart-img {
+      background: url(/dist/img/sprites/logoAndMenu.png) no-repeat -218px -337px;
+      width: 41px;
+      height: 28px;
+      position: relative; }
+    .nav1-right-cart-count {
+      font-weight: bold;
+      color: #f08804;
+      font-size: 1em;
+      position: absolute;
+      left: 18.5px;
+      bottom: 15px; }
 
 form.search-form {
   display: flex;
   justify-content: center; }
 
-input.search-submit {
-  height: 51px;
-  margin: 0;
-  padding: 1rem 1.3rem;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-  font-family: "Font Awesome 5 Free";
-  font-size: 1rem; }
-
-.button {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 0.8rem;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  background: #febd69;
-  color: #292826;
-  border: 1px solid transparent;
-  vertical-align: middle;
-  text-shadow: none;
-  transition: all 0.2s; }
-
-.button:hover,
-.button:active,
-.button:focus {
-  cursor: pointer;
-  background: #f3a847;
-  color: #292826;
-  outline: 0; }
-
-.input-group-addon select {
-  padding: 0;
-  height: 100%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px; }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: "AmazonFont", Arial, Helvetica, sans-serif;
-  font-size: 14px; }
+.nav2 {
+  height: 39px;
+  background-color: #323341;
+  padding: 4px 9px; }
+  .nav2-item {
+    padding: 5px 12px; }
