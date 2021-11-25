@@ -33,7 +33,7 @@ body {
   align-items: flex-end;
   justify-content: space-between; }
 
-.big-white-txt-nav {
+.big-txt-nav {
   font-weight: bold; }
 
 .small-white-txt-nav {
@@ -171,3 +171,14 @@ form.search-form {
   padding: 4px 9px; }
   .nav2-item {
     padding: 5px 12px; }
+
+.nav3 {
+  height: 33px;
+  background-color: #fafafa; }
+  .nav3-item {
+    border-bottom: 3px solid transparent;
+    color: #323341;
+    font-size: 12px;
+    padding: 7px 12px; }
+  .nav3-item:hover {
+    border-bottom: 3px solid #f3a847; }

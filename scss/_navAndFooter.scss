@@ -156,3 +156,19 @@ form.search-form {
     padding: 5px 12px;
   }
 }
+
+//--------------nav 3 -------------///
+.nav3 {
+  height: 33px;
+  background-color: $light-menu;
+
+  &-item {
+    border-bottom: 3px solid transparent;
+    color: $grey-nav2;
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+  &-item:hover {
+    border-bottom: 3px solid $hover-color-search-submit;
+  }
+}
