@@ -1,1 +1,4 @@
 # AmazonProductPage
+
+Thursday:
+1. 
