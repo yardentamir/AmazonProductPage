@@ -64,6 +64,18 @@ p {
   margin-top: 15px;
 }
 
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-r-10 {
+  margin-right: 10px;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
@@ -142,6 +154,16 @@ p {
   padding-right: 6px;
 }
 
+.table-title-s {
+  color: $secondary-color;
+  vertical-align: top;
+  padding-right: 6px;
+  font-size: 12px;
+}
+.fonts-12 {
+  font-size: 12px;
+}
+
 .discount-txt {
   text-decoration: line-through;
   color: $secondary-color;
@@ -170,7 +192,6 @@ p {
   color: #007600;
   font-size: 18px;
   line-height: 24px;
-  padding-top: 15px;
 }
 
 .display-grid {
@@ -197,4 +218,15 @@ p {
 }
 .btn-orange:hover {
   background-color: $orange-hover;
+}
+
+.btn-grey {
+  padding: 8px 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.side-card {
+  border: 1px solid $grey-text;
+  border-radius: 10px;
 }

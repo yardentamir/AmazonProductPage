@@ -56,6 +56,15 @@ p {
 .m-t-15 {
   margin-top: 15px; }
 
+.m-b-15 {
+  margin-bottom: 15px; }
+
+.m-t-10 {
+  margin-top: 10px; }
+
+.m-r-10 {
+  margin-right: 10px; }
+
 .flex-center {
   display: flex;
   align-items: center;
@@ -120,6 +129,15 @@ p {
   vertical-align: top;
   padding-right: 6px; }
 
+.table-title-s {
+  color: #565959;
+  vertical-align: top;
+  padding-right: 6px;
+  font-size: 12px; }
+
+.fonts-12 {
+  font-size: 12px; }
+
 .discount-txt {
   text-decoration: line-through;
   color: #565959; }
@@ -142,8 +160,7 @@ p {
 .green-title {
   color: #007600;
   font-size: 18px;
-  line-height: 24px;
-  padding-top: 15px; }
+  line-height: 24px; }
 
 .display-grid {
   display: grid; }
@@ -168,6 +185,15 @@ p {
 
 .btn-orange:hover {
   background-color: #fa8900; }
+
+.btn-grey {
+  padding: 8px 10px;
+  width: 100%;
+  text-align: left; }
+
+.side-card {
+  border: 1px solid #cccccc;
+  border-radius: 10px; }
 
 .nav1 {
   height: 60px;
@@ -379,11 +405,9 @@ form.search-form {
   grid-area: 1 / 3 / 5 / 4;
   border: 1px red solid; }
   .right-col-info {
-    border: 1px solid #cccccc;
-    padding: 15px;
-    border-radius: 10px; }
-    .right-col-info-location {
-      margin-top: 20px; }
+    padding: 20px 15px; }
+    .right-col-info-icon-set {
+      margin: 15px 0; }
     .right-col-info-select {
       border: 1px solid #cccccc;
       border-radius: 10px;
@@ -391,6 +415,16 @@ form.search-form {
       font-size: 11px;
       color: #323341;
       box-shadow: 0 1px 5px grey; }
+    .right-col-info-link {
+      text-decoration: none;
+      color: #007185;
+      cursor: pointer; }
+    .right-col-info-link:hover {
+      color: #b12704;
+      text-decoration: underline; }
+  .right-col-2 {
+    padding: 20px 15px;
+    margin: 25px 0; }
 
 .carousel {
   grid-area: 4 / 1 / 5 / 3;
