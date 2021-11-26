@@ -42,6 +42,10 @@ table {
   width: 100%;
 }
 
+p {
+  padding-top: 10px;
+}
+
 .p-s-5 {
   padding: 0 5px;
 }
@@ -54,6 +58,10 @@ table {
 .p-s-08 {
   padding: 0 8px;
   white-space: nowrap;
+}
+
+.m-t-15 {
+  margin-top: 15px;
 }
 
 .flex-center {
@@ -78,7 +86,7 @@ table {
   justify-content: space-between;
 }
 
-.big-txt-nav {
+.big-txt {
   font-weight: bold;
 }
 
@@ -156,4 +164,37 @@ table {
   padding-left: 4px;
   font-size: 8px;
   color: $secondary-color;
+}
+
+.green-title {
+  color: #007600;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 15px;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.btn-yellow {
+  background-color: $yellow;
+  border: none;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-yellow:hover {
+  background-color: $yellow-hover;
+}
+.btn-orange {
+  background-color: $orange;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-orange:hover {
+  background-color: $orange-hover;
 }
