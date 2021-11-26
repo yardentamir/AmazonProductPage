@@ -74,7 +74,7 @@ const carouselObj = [
   {
     id: 9,
     img: "/dist/img/gallery/61cWISkxk4L._AC_UL160_SR160,160_.jpg",
-    dis: "WOW! PODS Harry Potter’s Light Painting Wand – Award Winner, 14"" Wands (WW-1024)",
+    dis: 'WOW! PODS Harry Potter’s Light Painting Wand – Award Winner, 14"" Wands (WW-1024)',
     stars: 9,
     votes: 1113,
     price: 27.99,
@@ -85,7 +85,7 @@ const carouselObj = [
     dis: "The Harry Potter Remote Control Wand",
     stars: 9,
     votes: 2675,
-    price: 59.00,
+    price: 59.0,
   },
   {
     id: 11,
