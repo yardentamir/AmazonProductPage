@@ -3,9 +3,22 @@
 }
 
 .carousel-arrow {
-  padding: 6px;
+  padding: 10px;
   border: 1px solid $grey-text;
   border-radius: 7px;
   cursor: pointer;
   background-color: $light-menu;
+}
+
+.bottom-col-carousel {
+  &-ol {
+    margin: 0;
+    height: 100%;
+    overflow-x: visible;
+  }
+
+  &-ol li {
+    width: 160px;
+    margin-left: 23px;
+  }
 }
