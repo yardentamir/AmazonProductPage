@@ -3,6 +3,7 @@
   background-color: $background-nav;
   color: $light-text;
   padding: 0 10px;
+  line-height: normal;
 
   &-left {
     &-logo-sprite {
@@ -167,7 +168,7 @@ form.search-form {
     border-bottom: 3px solid transparent;
     color: $grey-nav2;
     font-size: 12px;
-    padding: 7px 12px;
+    padding: 5px 12px;
     white-space: nowrap;
   }
   &-item:hover {

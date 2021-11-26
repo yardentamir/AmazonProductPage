@@ -7,6 +7,7 @@
 body {
   font-family: "AmazonFont", Arial, Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 20px;
 }
 
 a,
@@ -15,7 +16,7 @@ select {
 }
 
 a {
-  color: white;
+  color: $light-text;
   text-decoration: none;
 }
 
@@ -27,6 +28,18 @@ h2 {
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .p-s-5 {
@@ -82,7 +95,7 @@ h2 {
 }
 
 .nav-link:hover {
-  border: 1px solid white;
+  border: 1px solid $light-text;
 }
 
 .container {
@@ -93,4 +106,54 @@ h2 {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.price-big-txt {
+  color: $main-hover-color;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-nor-txt {
+  color: $main-hover-color;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.starts-chev {
+  padding-left: 10px;
+  font-size: 8px;
+  color: $secondary-color;
+  padding-top: 4px;
+}
+
+.table-title {
+  text-align: right;
+  color: $secondary-color;
+  vertical-align: top;
+  padding-right: 6px;
+}
+
+.discount-txt {
+  text-decoration: line-through;
+  color: $secondary-color;
+}
+
+.grey-txt {
+  color: $secondary-color;
+}
+
+.link-no-underline {
+  color: $main-link-color;
+  cursor: pointer;
+}
+
+.link-no-underline:hover {
+  color: $main-hover-color;
+}
+
+.reg-chev {
+  padding-left: 4px;
+  font-size: 8px;
+  color: $secondary-color;
 }
