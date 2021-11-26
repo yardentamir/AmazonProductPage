@@ -1,6 +1,5 @@
 .right-col {
-  grid-area: 1 / 3 / 5 / 4;
-  border: 1px red solid;
+  grid-area: 1 / 3 / 3 / 4;
 
   &-info {
     padding: 20px 15px;
@@ -15,6 +14,7 @@
       font-size: 11px;
       color: $grey-nav2;
       box-shadow: 0 1px 5px grey;
+      background-color: $light-menu;
     }
 
     &-link {
@@ -31,10 +31,12 @@
 
   &-2 {
     padding: 20px 15px;
-    margin: 25px 0;
+    margin: 20px 0px;
+    cursor: pointer;
   }
 
   &-3-social {
+    padding: 0 50px;
     &-link {
       text-decoration: none;
       color: $main-link-color;
@@ -47,14 +49,75 @@
     }
 
     &-img-1 {
-      background-image: url(/dist/img/sprites/M9SSJsDj8YXHO4p.png) no-repeat -512px -442px;
+      background-image: url("/dist/img/sprites/M9SSJsDj8YXHO4p.png");
       width: 38px;
       height: 30px;
+      background-position: -512px -442px;
+      background-repeat: no-repeat;
+      transform: scale(0.5);
+    }
+
+    &-img-2 {
+      background: url("/dist/img/sprites/M9SSJsDj8YXHO4p.png") no-repeat;
+      width: 35px;
+      height: 35px;
+      background-position: -473px -302px;
+      transform: scale(0.5);
+    }
+    &-img-3 {
+      background: url("/dist/img/sprites/M9SSJsDj8YXHO4p.png") no-repeat -386px -212px;
+      width: 36px;
+      height: 31px;
+      transform: scale(0.5);
+    }
+    &-img-4 {
+      background: url("/dist/img/sprites/M9SSJsDj8YXHO4p.png") no-repeat -276px -28px;
+      width: 34px;
+      height: 34px;
+      transform: scale(0.5);
     }
   }
-}
-.carousel {
-  grid-area: 4 / 1 / 5 / 3;
-  border: 1px red solid;
-  padding: 50px 0;
+
+  &-4 {
+    p {
+      padding-top: 2px;
+    }
+  }
+
+  &-5 {
+    padding: 20px 15px;
+    margin-top: 20px;
+    position: relative;
+
+    &-discount-con {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: auto;
+      padding: 0 5px 5px 0;
+      overflow: hidden;
+      border-top-left-radius: 10px;
+
+      &-content {
+        top: 0;
+        background: #e87e00;
+        transform: skew(-15deg) translate(-3px, 0);
+        padding: 0 8px;
+        &-inner {
+          font-size: 11px;
+          transform: skew(15deg);
+          color: #fff;
+          padding-bottom: 2px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    &-img {
+      background: url("/dist/img/sprites/M9SSJsDj8YXHO4p.png") no-repeat -439px -398px;
+      width: 70px;
+      height: 20px;
+      transform: scale(0.8);
+    }
+  }
 }

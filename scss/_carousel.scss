@@ -1,0 +1,11 @@
+.bottom-col {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.carousel-arrow {
+  padding: 6px;
+  border: 1px solid $grey-text;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: $light-menu;
+}

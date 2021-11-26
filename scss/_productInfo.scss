@@ -21,7 +21,7 @@
 .product-page-data {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   // grid-column-gap: 1px;
   // grid-row-gap: 0px;
   gap: 20px;
@@ -30,7 +30,7 @@
 }
 
 .left-col {
-  grid-area: 1 / 1 / 4 / 2;
+  grid-area: 1 / 1 / 2 / 2;
   &-gallery-img img {
     cursor: pointer;
     border: 1px solid $secondary-color;
@@ -44,7 +44,7 @@
   }
 }
 .center-col {
-  grid-area: 1 / 2 / 4 / 3;
+  grid-area: 1 / 2 / 2 / 3;
   width: 500px;
 
   &-link {
