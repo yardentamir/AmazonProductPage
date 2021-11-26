@@ -161,12 +161,14 @@ form.search-form {
 .nav3 {
   height: 33px;
   background-color: $light-menu;
+  border-bottom: 1px solid $grey-text;
 
   &-item {
     border-bottom: 3px solid transparent;
     color: $grey-nav2;
     font-size: 12px;
     padding: 7px 12px;
+    white-space: nowrap;
   }
   &-item:hover {
     border-bottom: 3px solid $hover-color-search-submit;
@@ -179,7 +181,8 @@ form.search-form {
 
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    min-width: 650px;
+    width: 400px;
   }
 }
