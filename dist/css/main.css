@@ -634,6 +634,8 @@ form.search-form {
     display: block; }
   .nav1-m-right > * {
     padding: 0 5px; }
+  .nav-m-right span {
+    padding: 10px; }
   .left-col-showing-img img {
     height: 273px;
     margin-left: auto;
@@ -656,4 +658,9 @@ form.search-form {
     display: block;
     padding: 0; }
   .container {
-    padding: 20px; } }
+    padding: 20px; }
+  .side-card {
+    border: none;
+    border-radius: 0;
+    border-bottom: 4px solid #cccccc;
+    border-top: 4px solid #cccccc; } }

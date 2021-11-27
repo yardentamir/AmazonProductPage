@@ -119,6 +119,8 @@ const nextFunc = () => {
   </li>`;
     document.querySelector("#carouselOl").innerHTML += htmlContent;
   }
+  let pageCounter = document.querySelector("#pageCounter");
+  pageCounter.textContent = 2;
 };
 
 const pervFunc = () => {
@@ -141,6 +143,8 @@ const pervFunc = () => {
   </li>`;
     document.querySelector("#carouselOl").innerHTML += htmlContent;
   }
+  let pageCounter = document.querySelector("#pageCounter");
+  pageCounter.textContent = 1;
 };
 
 //Event Listeners
@@ -152,3 +156,19 @@ const nextBtnCarousel = document.querySelector("#carouselRightArrow");
 nextBtnCarousel.addEventListener("click", nextFunc);
 
 pervFunc();
+
+///-----------------------add to cart------------------------///
+
+const addToCart = () => {
+  console.log("here");
+  const cartCounter = document.querySelectorAll(".cartCounter");
+  Array.from(cartCounter).forEach((element) => {
+    element.textContent++;
+  });
+};
+
+const addBtn = document.querySelector("#AddtoCartBtn");
+
+//Event Listeners
+
+addBtn.addEventListener("click", addToCart);
