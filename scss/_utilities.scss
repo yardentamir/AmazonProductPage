@@ -267,3 +267,41 @@ p {
   line-height: 32px;
   font-weight: 700;
 }
+
+.price-dollar-txt-black {
+  color: #0f1111;
+  font-size: 17px;
+  padding-top: 0;
+}
+
+.price-dollar-txt-black:before {
+  content: "$";
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.color-link-txt {
+  color: $main-link-color;
+  margin-left: 5px;
+}
+
+.after-arrow {
+  position: relative;
+}
+
+.after-arrow:after {
+  content: "›";
+  right: 0;
+  position: absolute;
+}
+
+.desktop-display {
+  display: none;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+  min-width: auto;
+  max-width: auto;
+}

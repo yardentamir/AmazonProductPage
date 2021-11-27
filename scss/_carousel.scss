@@ -7,7 +7,15 @@
   border: 1px solid $grey-text;
   border-radius: 7px;
   cursor: pointer;
-  background-color: $light-menu;
+}
+
+.carousel-arrow:hover {
+  background-color: $light-btn;
+}
+
+.carousel-arrow:active {
+  background-color: #edfdff;
+  border-color: $main-link-color;
 }
 
 .bottom-col-carousel {
@@ -20,5 +28,16 @@
   &-ol li {
     width: 160px;
     margin-left: 23px;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: $main-link-color;
+    cursor: pointer;
+  }
+
+  &-link:hover {
+    color: $main-hover-color;
+    text-decoration: underline;
   }
 }
